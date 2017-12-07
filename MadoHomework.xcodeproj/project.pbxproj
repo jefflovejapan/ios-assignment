@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88138951FD9D633006A1B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138941FD9D633006A1B92 /* AppDelegate.swift */; };
+		C88138971FD9D633006A1B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138961FD9D633006A1B92 /* ViewController.swift */; };
+		C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88138981FD9D633006A1B92 /* Main.storyboard */; };
+		C881389C1FD9D633006A1B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C881389B1FD9D633006A1B92 /* Assets.xcassets */; };
+		C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */; };
+		C88138AA1FD9D633006A1B92 /* MadoHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138A91FD9D633006A1B92 /* MadoHomeworkTests.swift */; };
+		C88138B51FD9D633006A1B92 /* MadoHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138B41FD9D633006A1B92 /* MadoHomeworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88138A61FD9D633006A1B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88138891FD9D632006A1B92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88138901FD9D633006A1B92;
+			remoteInfo = MadoHomework;
+		};
+		C88138B11FD9D633006A1B92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88138891FD9D632006A1B92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88138901FD9D633006A1B92;
+			remoteInfo = MadoHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88138911FD9D633006A1B92 /* MadoHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadoHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88138941FD9D633006A1B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88138961FD9D633006A1B92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88138991FD9D633006A1B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C881389B1FD9D633006A1B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C881389E1FD9D633006A1B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C88138A01FD9D633006A1B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88138A51FD9D633006A1B92 /* MadoHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadoHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88138A91FD9D633006A1B92 /* MadoHomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadoHomeworkTests.swift; sourceTree = "<group>"; };
+		C88138AB1FD9D633006A1B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88138B01FD9D633006A1B92 /* MadoHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadoHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88138B41FD9D633006A1B92 /* MadoHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadoHomeworkUITests.swift; sourceTree = "<group>"; };
+		C88138B61FD9D633006A1B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C881388E1FD9D633006A1B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138A21FD9D633006A1B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138AD1FD9D633006A1B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88138881FD9D632006A1B92 = {
+			isa = PBXGroup;
+			children = (
+				C88138931FD9D633006A1B92 /* MadoHomework */,
+				C88138A81FD9D633006A1B92 /* MadoHomeworkTests */,
+				C88138B31FD9D633006A1B92 /* MadoHomeworkUITests */,
+				C88138921FD9D633006A1B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88138921FD9D633006A1B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88138911FD9D633006A1B92 /* MadoHomework.app */,
+				C88138A51FD9D633006A1B92 /* MadoHomeworkTests.xctest */,
+				C88138B01FD9D633006A1B92 /* MadoHomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88138931FD9D633006A1B92 /* MadoHomework */ = {
+			isa = PBXGroup;
+			children = (
+				C88138941FD9D633006A1B92 /* AppDelegate.swift */,
+				C88138961FD9D633006A1B92 /* ViewController.swift */,
+				C88138981FD9D633006A1B92 /* Main.storyboard */,
+				C881389B1FD9D633006A1B92 /* Assets.xcassets */,
+				C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */,
+				C88138A01FD9D633006A1B92 /* Info.plist */,
+			);
+			path = MadoHomework;
+			sourceTree = "<group>";
+		};
+		C88138A81FD9D633006A1B92 /* MadoHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88138A91FD9D633006A1B92 /* MadoHomeworkTests.swift */,
+				C88138AB1FD9D633006A1B92 /* Info.plist */,
+			);
+			path = MadoHomeworkTests;
+			sourceTree = "<group>";
+		};
+		C88138B31FD9D633006A1B92 /* MadoHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C88138B41FD9D633006A1B92 /* MadoHomeworkUITests.swift */,
+				C88138B61FD9D633006A1B92 /* Info.plist */,
+			);
+			path = MadoHomeworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88138901FD9D633006A1B92 /* MadoHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88138B91FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomework" */;
+			buildPhases = (
+				C881388D1FD9D633006A1B92 /* Sources */,
+				C881388E1FD9D633006A1B92 /* Frameworks */,
+				C881388F1FD9D633006A1B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadoHomework;
+			productName = MadoHomework;
+			productReference = C88138911FD9D633006A1B92 /* MadoHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88138A41FD9D633006A1B92 /* MadoHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88138BC1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkTests" */;
+			buildPhases = (
+				C88138A11FD9D633006A1B92 /* Sources */,
+				C88138A21FD9D633006A1B92 /* Frameworks */,
+				C88138A31FD9D633006A1B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88138A71FD9D633006A1B92 /* PBXTargetDependency */,
+			);
+			name = MadoHomeworkTests;
+			productName = MadoHomeworkTests;
+			productReference = C88138A51FD9D633006A1B92 /* MadoHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C88138AF1FD9D633006A1B92 /* MadoHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88138BF1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkUITests" */;
+			buildPhases = (
+				C88138AC1FD9D633006A1B92 /* Sources */,
+				C88138AD1FD9D633006A1B92 /* Frameworks */,
+				C88138AE1FD9D633006A1B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88138B21FD9D633006A1B92 /* PBXTargetDependency */,
+			);
+			name = MadoHomeworkUITests;
+			productName = MadoHomeworkUITests;
+			productReference = C88138B01FD9D633006A1B92 /* MadoHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88138891FD9D632006A1B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mado Labs";
+				TargetAttributes = {
+					C88138901FD9D633006A1B92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C88138A41FD9D633006A1B92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C88138901FD9D633006A1B92;
+					};
+					C88138AF1FD9D633006A1B92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C88138901FD9D633006A1B92;
+					};
+				};
+			};
+			buildConfigurationList = C881388C1FD9D632006A1B92 /* Build configuration list for PBXProject "MadoHomework" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88138881FD9D632006A1B92;
+			productRefGroup = C88138921FD9D633006A1B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88138901FD9D633006A1B92 /* MadoHomework */,
+				C88138A41FD9D633006A1B92 /* MadoHomeworkTests */,
+				C88138AF1FD9D633006A1B92 /* MadoHomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C881388F1FD9D633006A1B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */,
+				C881389C1FD9D633006A1B92 /* Assets.xcassets in Resources */,
+				C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138A31FD9D633006A1B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138AE1FD9D633006A1B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C881388D1FD9D633006A1B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88138971FD9D633006A1B92 /* ViewController.swift in Sources */,
+				C88138951FD9D633006A1B92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138A11FD9D633006A1B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88138AA1FD9D633006A1B92 /* MadoHomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88138AC1FD9D633006A1B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88138B51FD9D633006A1B92 /* MadoHomeworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88138A71FD9D633006A1B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88138901FD9D633006A1B92 /* MadoHomework */;
+			targetProxy = C88138A61FD9D633006A1B92 /* PBXContainerItemProxy */;
+		};
+		C88138B21FD9D633006A1B92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88138901FD9D633006A1B92 /* MadoHomework */;
+			targetProxy = C88138B11FD9D633006A1B92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C88138981FD9D633006A1B92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88138991FD9D633006A1B92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C881389E1FD9D633006A1B92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88138B71FD9D633006A1B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88138B81FD9D633006A1B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88138BA1FD9D633006A1B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88138BB1FD9D633006A1B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88138BD1FD9D633006A1B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadoHomework.app/MadoHomework";
+			};
+			name = Debug;
+		};
+		C88138BE1FD9D633006A1B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadoHomework.app/MadoHomework";
+			};
+			name = Release;
+		};
+		C88138C01FD9D633006A1B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MadoHomework;
+			};
+			name = Debug;
+		};
+		C88138C11FD9D633006A1B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadoHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.madolabs.ios.MadoHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MadoHomework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C881388C1FD9D632006A1B92 /* Build configuration list for PBXProject "MadoHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88138B71FD9D633006A1B92 /* Debug */,
+				C88138B81FD9D633006A1B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88138B91FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88138BA1FD9D633006A1B92 /* Debug */,
+				C88138BB1FD9D633006A1B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88138BC1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88138BD1FD9D633006A1B92 /* Debug */,
+				C88138BE1FD9D633006A1B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88138BF1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88138C01FD9D633006A1B92 /* Debug */,
+				C88138C11FD9D633006A1B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88138891FD9D632006A1B92 /* Project object */;
+}
