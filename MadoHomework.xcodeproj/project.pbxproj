@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1D13F83752C17D76F17FB4 /* Pods_MadoHomeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81F0C335CEF1738ECDA8C10 /* Pods_MadoHomeworkUITests.framework */; };
+		6C7A6F6B5D6241D9540F24E2 /* Pods_MadoHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE50143E88ADA745D4A428E /* Pods_MadoHomework.framework */; };
+		864DDD99C4EAA2D5B0007296 /* Pods_MadoHomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D85A2C5DD2F8FB98E953D73 /* Pods_MadoHomeworkTests.framework */; };
 		C88138951FD9D633006A1B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138941FD9D633006A1B92 /* AppDelegate.swift */; };
 		C88138971FD9D633006A1B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138961FD9D633006A1B92 /* ViewController.swift */; };
 		C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88138981FD9D633006A1B92 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */; };
 		C88138AA1FD9D633006A1B92 /* MadoHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138A91FD9D633006A1B92 /* MadoHomeworkTests.swift */; };
 		C88138B51FD9D633006A1B92 /* MadoHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138B41FD9D633006A1B92 /* MadoHomeworkUITests.swift */; };
+		C88138C31FD9D664006A1B92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C88138C21FD9D664006A1B92 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10BA4FCADF16B779D9C9E932 /* Pods-MadoHomeworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D85A2C5DD2F8FB98E953D73 /* Pods_MadoHomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoHomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB86026D8F25181BCD45D9D /* Pods-MadoHomeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FB688D8FCD929F3F5AC9A69 /* Pods-MadoHomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		97983E4EBAB659A0F2ACB375 /* Pods-MadoHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomework/Pods-MadoHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		9C426BA2933B401DF05F47C5 /* Pods-MadoHomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C88138911FD9D633006A1B92 /* MadoHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadoHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88138941FD9D633006A1B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88138961FD9D633006A1B92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		C88138B01FD9D633006A1B92 /* MadoHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadoHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88138B41FD9D633006A1B92 /* MadoHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadoHomeworkUITests.swift; sourceTree = "<group>"; };
 		C88138B61FD9D633006A1B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88138C21FD9D664006A1B92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D81F0C335CEF1738ECDA8C10 /* Pods_MadoHomeworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoHomeworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6849091BBA525E85B85D2D /* Pods-MadoHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomework/Pods-MadoHomework.release.xcconfig"; sourceTree = "<group>"; };
+		FBE50143E88ADA745D4A428E /* Pods_MadoHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7A6F6B5D6241D9540F24E2 /* Pods_MadoHomework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864DDD99C4EAA2D5B0007296 /* Pods_MadoHomeworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1D13F83752C17D76F17FB4 /* Pods_MadoHomeworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		708F9FD39E85EE9540CE27C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97983E4EBAB659A0F2ACB375 /* Pods-MadoHomework.debug.xcconfig */,
+				EA6849091BBA525E85B85D2D /* Pods-MadoHomework.release.xcconfig */,
+				9C426BA2933B401DF05F47C5 /* Pods-MadoHomeworkTests.debug.xcconfig */,
+				8FB688D8FCD929F3F5AC9A69 /* Pods-MadoHomeworkTests.release.xcconfig */,
+				4EB86026D8F25181BCD45D9D /* Pods-MadoHomeworkUITests.debug.xcconfig */,
+				10BA4FCADF16B779D9C9E932 /* Pods-MadoHomeworkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C88138881FD9D632006A1B92 = {
 			isa = PBXGroup;
 			children = (
+				C88138C21FD9D664006A1B92 /* README.md */,
 				C88138931FD9D633006A1B92 /* MadoHomework */,
 				C88138A81FD9D633006A1B92 /* MadoHomeworkTests */,
 				C88138B31FD9D633006A1B92 /* MadoHomeworkUITests */,
 				C88138921FD9D633006A1B92 /* Products */,
+				708F9FD39E85EE9540CE27C5 /* Pods */,
+				FBBD9B52E5707B0CD3FD4343 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +158,16 @@
 			path = MadoHomeworkUITests;
 			sourceTree = "<group>";
 		};
+		FBBD9B52E5707B0CD3FD4343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBE50143E88ADA745D4A428E /* Pods_MadoHomework.framework */,
+				1D85A2C5DD2F8FB98E953D73 /* Pods_MadoHomeworkTests.framework */,
+				D81F0C335CEF1738ECDA8C10 /* Pods_MadoHomeworkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88138B91FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomework" */;
 			buildPhases = (
+				F097AF2269FDE157DD29A7C1 /* [CP] Check Pods Manifest.lock */,
 				C881388D1FD9D633006A1B92 /* Sources */,
 				C881388E1FD9D633006A1B92 /* Frameworks */,
 				C881388F1FD9D633006A1B92 /* Resources */,
+				A8AD1A8E6D6FC2CDB1432F9A /* [CP] Embed Pods Frameworks */,
+				C8BBEB7EB2B630DBC7AAECCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88138BC1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkTests" */;
 			buildPhases = (
+				8743098824E51D38B2B8AED2 /* [CP] Check Pods Manifest.lock */,
 				C88138A11FD9D633006A1B92 /* Sources */,
 				C88138A21FD9D633006A1B92 /* Frameworks */,
 				C88138A31FD9D633006A1B92 /* Resources */,
+				7B85174A190400C57B009984 /* [CP] Embed Pods Frameworks */,
+				02041D75CEE927967E864119 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88138BF1FD9D633006A1B92 /* Build configuration list for PBXNativeTarget "MadoHomeworkUITests" */;
 			buildPhases = (
+				53EA1002689EA91C87553431 /* [CP] Check Pods Manifest.lock */,
 				C88138AC1FD9D633006A1B92 /* Sources */,
 				C88138AD1FD9D633006A1B92 /* Frameworks */,
 				C88138AE1FD9D633006A1B92 /* Resources */,
+				9421E2B940FE76CF240D63D1 /* [CP] Embed Pods Frameworks */,
+				BBAA84747D2EE33911B18E3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +286,7 @@
 			files = (
 				C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */,
 				C881389C1FD9D633006A1B92 /* Assets.xcassets in Resources */,
+				C88138C31FD9D664006A1B92 /* README.md in Resources */,
 				C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +306,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02041D75CEE927967E864119 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53EA1002689EA91C87553431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoHomeworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B85174A190400C57B009984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8743098824E51D38B2B8AED2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoHomeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9421E2B940FE76CF240D63D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AD1A8E6D6FC2CDB1432F9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomework/Pods-MadoHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAA84747D2EE33911B18E3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8BBEB7EB2B630DBC7AAECCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadoHomework/Pods-MadoHomework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F097AF2269FDE157DD29A7C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadoHomework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C881388D1FD9D633006A1B92 /* Sources */ = {
@@ -424,6 +624,7 @@
 		};
 		C88138BA1FD9D633006A1B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97983E4EBAB659A0F2ACB375 /* Pods-MadoHomework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +639,7 @@
 		};
 		C88138BB1FD9D633006A1B92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6849091BBA525E85B85D2D /* Pods-MadoHomework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +654,7 @@
 		};
 		C88138BD1FD9D633006A1B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C426BA2933B401DF05F47C5 /* Pods-MadoHomeworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +671,7 @@
 		};
 		C88138BE1FD9D633006A1B92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB688D8FCD929F3F5AC9A69 /* Pods-MadoHomeworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +688,7 @@
 		};
 		C88138C01FD9D633006A1B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB86026D8F25181BCD45D9D /* Pods-MadoHomeworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +704,7 @@
 		};
 		C88138C11FD9D633006A1B92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BA4FCADF16B779D9C9E932 /* Pods-MadoHomeworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
