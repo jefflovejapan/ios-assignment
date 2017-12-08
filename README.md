@@ -1,6 +1,6 @@
 # Mado Interview Homework Assignment
 
-Hey prospective Mado engineer! We're really excited to get to know, and we figured a
+Hey prospective Mado engineer! We're really excited to get to know you, and we figured a
 little homework problem would be a great way to get to know you – and your coding style – better.
 Below you'll find a description of what we're looking for, and some constraints we're going to place
 on it. This assignment should take **less than 2 hours to complete**.
@@ -19,8 +19,7 @@ app. The app will consist of 3 screens:
 2. User overview
 3. Repo details
 
-You can connect all of these screens as you see fit, although a `NavigationController` seems like the most
-obvious answer.
+You can connect all of these screens as you see fit.
 
 First we'll talk about the general requirements, after that what each screen should do.
 
@@ -42,7 +41,7 @@ exist. If the user does exist, you should move on to the next screen.
 
 ### User overview
 This screen should show information about the user, as well as a list of the user's repositories. You can do
-this any way you please, but a table view with a header seems most likely. The information about the user should include:
+this any way you please. The information about the user should include:
 
 - The user's name and username
 - The user's avatar
