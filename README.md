@@ -33,6 +33,12 @@ First we'll talk about the general requirements, after that what each screen sho
 
 Feel free to use this repo as a starting point, or to start your own if you don't like the template we used (the built in iOS "Single View App").
 
+### How to submit
+
+Please either email a `.zip` file of all the contents of your project, or send a link to a publicly accessible git repo on github or bitbucket.
+
+You may choose to include your  `Pods` dependencies in your  submission, or we can run `pod install` ourselves.
+
 ## Screen Requirements
 
 ### Username entry screen
