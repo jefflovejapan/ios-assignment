@@ -8,10 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1D1D13F83752C17D76F17FB4 /* Pods_MadoHomeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81F0C335CEF1738ECDA8C10 /* Pods_MadoHomeworkUITests.framework */; };
+		1FE828B82050558400378688 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828B72050558400378688 /* UserDetailViewController.swift */; };
+		1FE828BA2050796700378688 /* GitHubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828B92050796700378688 /* GitHubEndpoint.swift */; };
+		1FE828BD2050A3BE00378688 /* RepoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828BB2050A3BE00378688 /* RepoDetailViewController.swift */; };
+		1FE828BE2050A3BE00378688 /* RepoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE828BC2050A3BE00378688 /* RepoDetailViewController.xib */; };
+		1FE828C02050AE2000378688 /* UITableView+MadoLabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828BF2050AE2000378688 /* UITableView+MadoLabs.swift */; };
+		1FE828C2205176B500378688 /* URLSession+MadoLabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828C1205176B500378688 /* URLSession+MadoLabs.swift */; };
+		1FE828C4205176FA00378688 /* GitHubData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE828C3205176FA00378688 /* GitHubData.swift */; };
 		6C7A6F6B5D6241D9540F24E2 /* Pods_MadoHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE50143E88ADA745D4A428E /* Pods_MadoHomework.framework */; };
 		864DDD99C4EAA2D5B0007296 /* Pods_MadoHomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D85A2C5DD2F8FB98E953D73 /* Pods_MadoHomeworkTests.framework */; };
 		C88138951FD9D633006A1B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138941FD9D633006A1B92 /* AppDelegate.swift */; };
-		C88138971FD9D633006A1B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138961FD9D633006A1B92 /* ViewController.swift */; };
+		C88138971FD9D633006A1B92 /* UsernameEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88138961FD9D633006A1B92 /* UsernameEntryViewController.swift */; };
 		C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88138981FD9D633006A1B92 /* Main.storyboard */; };
 		C881389C1FD9D633006A1B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C881389B1FD9D633006A1B92 /* Assets.xcassets */; };
 		C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */; };
@@ -40,13 +47,20 @@
 /* Begin PBXFileReference section */
 		10BA4FCADF16B779D9C9E932 /* Pods-MadoHomeworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1D85A2C5DD2F8FB98E953D73 /* Pods_MadoHomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadoHomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE828B72050558400378688 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		1FE828B92050796700378688 /* GitHubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubEndpoint.swift; sourceTree = "<group>"; };
+		1FE828BB2050A3BE00378688 /* RepoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailViewController.swift; sourceTree = "<group>"; };
+		1FE828BC2050A3BE00378688 /* RepoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoDetailViewController.xib; sourceTree = "<group>"; };
+		1FE828BF2050AE2000378688 /* UITableView+MadoLabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+MadoLabs.swift"; sourceTree = "<group>"; };
+		1FE828C1205176B500378688 /* URLSession+MadoLabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+MadoLabs.swift"; sourceTree = "<group>"; };
+		1FE828C3205176FA00378688 /* GitHubData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubData.swift; sourceTree = "<group>"; };
 		4EB86026D8F25181BCD45D9D /* Pods-MadoHomeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkUITests/Pods-MadoHomeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FB688D8FCD929F3F5AC9A69 /* Pods-MadoHomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		97983E4EBAB659A0F2ACB375 /* Pods-MadoHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomework/Pods-MadoHomework.debug.xcconfig"; sourceTree = "<group>"; };
 		9C426BA2933B401DF05F47C5 /* Pods-MadoHomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadoHomeworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadoHomeworkTests/Pods-MadoHomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C88138911FD9D633006A1B92 /* MadoHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadoHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88138941FD9D633006A1B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C88138961FD9D633006A1B92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88138961FD9D633006A1B92 /* UsernameEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameEntryViewController.swift; sourceTree = "<group>"; };
 		C88138991FD9D633006A1B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C881389B1FD9D633006A1B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C881389E1FD9D633006A1B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -131,7 +145,14 @@
 			isa = PBXGroup;
 			children = (
 				C88138941FD9D633006A1B92 /* AppDelegate.swift */,
-				C88138961FD9D633006A1B92 /* ViewController.swift */,
+				C88138961FD9D633006A1B92 /* UsernameEntryViewController.swift */,
+				1FE828B72050558400378688 /* UserDetailViewController.swift */,
+				1FE828BB2050A3BE00378688 /* RepoDetailViewController.swift */,
+				1FE828BC2050A3BE00378688 /* RepoDetailViewController.xib */,
+				1FE828C3205176FA00378688 /* GitHubData.swift */,
+				1FE828B92050796700378688 /* GitHubEndpoint.swift */,
+				1FE828BF2050AE2000378688 /* UITableView+MadoLabs.swift */,
+				1FE828C1205176B500378688 /* URLSession+MadoLabs.swift */,
 				C88138981FD9D633006A1B92 /* Main.storyboard */,
 				C881389B1FD9D633006A1B92 /* Assets.xcassets */,
 				C881389D1FD9D633006A1B92 /* LaunchScreen.storyboard */,
@@ -287,6 +308,7 @@
 				C881389F1FD9D633006A1B92 /* LaunchScreen.storyboard in Resources */,
 				C881389C1FD9D633006A1B92 /* Assets.xcassets in Resources */,
 				C88138C31FD9D664006A1B92 /* README.md in Resources */,
+				1FE828BE2050A3BE00378688 /* RepoDetailViewController.xib in Resources */,
 				C881389A1FD9D633006A1B92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,8 +481,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C88138971FD9D633006A1B92 /* ViewController.swift in Sources */,
+				1FE828C02050AE2000378688 /* UITableView+MadoLabs.swift in Sources */,
+				C88138971FD9D633006A1B92 /* UsernameEntryViewController.swift in Sources */,
 				C88138951FD9D633006A1B92 /* AppDelegate.swift in Sources */,
+				1FE828BD2050A3BE00378688 /* RepoDetailViewController.swift in Sources */,
+				1FE828B82050558400378688 /* UserDetailViewController.swift in Sources */,
+				1FE828BA2050796700378688 /* GitHubEndpoint.swift in Sources */,
+				1FE828C2205176B500378688 /* URLSession+MadoLabs.swift in Sources */,
+				1FE828C4205176FA00378688 /* GitHubData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

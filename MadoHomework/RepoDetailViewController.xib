@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RepoDetailViewController" customModule="MadoHomework" customModuleProvider="target">
+            <connections>
+                <outlet property="cloneURLTextView" destination="ZcV-zb-VC8" id="j7V-KZ-pXb"/>
+                <outlet property="descriptionLabel" destination="Cg3-ar-XCm" id="0tb-I1-tkM"/>
+                <outlet property="forksCountLabel" destination="hf5-PY-SQD" id="QBz-1q-PPb"/>
+                <outlet property="nameLabel" destination="RdX-mY-pWl" id="7r6-XH-Ckn"/>
+                <outlet property="starsCountLabel" destination="Rlw-Uf-RtP" id="ImT-IP-aIJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Cool Repo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdX-mY-pWl">
+                    <rect key="frame" x="133" y="52" width="110" height="21"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a repo that does stuff" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cg3-ar-XCm">
+                    <rect key="frame" x="90.5" y="105" width="196" height="18"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="736" horizontalCompressionResistancePriority="799" translatesAutoresizingMaskIntoConstraints="NO" id="KRy-Jm-0Sb">
+                    <rect key="frame" x="86.5" y="149" width="203.5" height="20"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forks: 315" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hf5-PY-SQD">
+                            <rect key="frame" x="16" y="0.0" width="79.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stars: 971" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlw-Uf-RtP">
+                            <rect key="frame" x="111.5" y="0.0" width="76" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97469484806060791" green="0.83706271648406982" blue="0.98041141033172607" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Rlw-Uf-RtP" secondAttribute="trailing" constant="16" id="IEx-Pq-A7o"/>
+                        <constraint firstItem="hf5-PY-SQD" firstAttribute="centerY" secondItem="KRy-Jm-0Sb" secondAttribute="centerY" id="KK7-37-Dy1"/>
+                        <constraint firstItem="hf5-PY-SQD" firstAttribute="leading" secondItem="KRy-Jm-0Sb" secondAttribute="leading" constant="16" id="M6G-le-l9h"/>
+                        <constraint firstItem="hf5-PY-SQD" firstAttribute="top" secondItem="KRy-Jm-0Sb" secondAttribute="top" priority="114" id="Pty-vV-ebv"/>
+                        <constraint firstItem="hf5-PY-SQD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KRy-Jm-0Sb" secondAttribute="top" id="a1f-e4-oZR"/>
+                        <constraint firstItem="Rlw-Uf-RtP" firstAttribute="leading" secondItem="hf5-PY-SQD" secondAttribute="trailing" constant="16" id="doz-Iw-lE7"/>
+                        <constraint firstItem="hf5-PY-SQD" firstAttribute="baseline" secondItem="Rlw-Uf-RtP" secondAttribute="baseline" id="edJ-8D-ENr"/>
+                        <constraint firstAttribute="width" priority="116" constant="229" id="uJa-Fc-DAi"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://github.com/whoever/mycoolrepo.git" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-zb-VC8">
+                    <rect key="frame" x="16" y="221" width="344" height="64"/>
+                    <color key="backgroundColor" red="0.97469484806060791" green="0.83706271648406982" blue="0.98041141033172607" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="zG6-p1-Qb8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.84022983836236742" blue="0.9813374549055448" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="Cg3-ar-XCm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="HDT-Li-Tri"/>
+                <constraint firstItem="RdX-mY-pWl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="Kne-ei-3Vv"/>
+                <constraint firstItem="ZcV-zb-VC8" firstAttribute="centerX" secondItem="KRy-Jm-0Sb" secondAttribute="centerX" id="O5f-N1-3M1"/>
+                <constraint firstItem="ZcV-zb-VC8" firstAttribute="top" secondItem="KRy-Jm-0Sb" secondAttribute="bottom" constant="52" id="P8p-9o-3pc"/>
+                <constraint firstItem="Cg3-ar-XCm" firstAttribute="centerX" secondItem="RdX-mY-pWl" secondAttribute="centerX" id="bXD-sp-yOy"/>
+                <constraint firstItem="ZcV-zb-VC8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="ctg-3v-rts"/>
+                <constraint firstItem="Cg3-ar-XCm" firstAttribute="top" secondItem="RdX-mY-pWl" secondAttribute="bottom" constant="32" id="eeh-kR-FHr"/>
+                <constraint firstItem="RdX-mY-pWl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mjG-UB-ZKg"/>
+                <constraint firstItem="KRy-Jm-0Sb" firstAttribute="top" secondItem="Cg3-ar-XCm" secondAttribute="bottom" constant="26" id="qSk-Pw-CaN"/>
+                <constraint firstItem="KRy-Jm-0Sb" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="saR-ln-5qG"/>
+                <constraint firstItem="RdX-mY-pWl" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="tir-dG-coi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KRy-Jm-0Sb" secondAttribute="trailing" constant="16" id="y3M-IG-nJj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
